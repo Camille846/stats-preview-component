@@ -1,21 +1,25 @@
 
 :root{
-    --Very-dark-blue: hsl(233, 47%, 7%);
-    --Dark-desaturated-blue: hsl(244, 38%, 16%);
-    --Soft-violet: hsl(277, 64%, 61%);
-    --White: hsl(0, 0%, 100%);
-    --Slightly-transparent-white: hsla(0, 0%, 100%, 0.75);
-    --Slightly-transparent-white: hsla(0, 0%, 100%, 0.6);
+    --main-background: hsl(233, 47%, 7%);
+    --card-background: hsl(244, 38%, 16%);
+    --accent: hsl(277, 64%, 61%);
+    --main-heading-stats: hsl(0, 0%, 100%);
+    --main-paragraph: hsla(0, 0%, 100%, 0.75);
+    --stat-headings: hsla(0, 0%, 100%, 0.6);
 
 }
 
 .attribution {
-     font-size: 11px; 
-     text-align: center; 
+    font-size: 11px; 
+    text-align: center; 
+    color:hsl(0, 0%, 100%);
+    padding-bottom: 20px;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
 
 }
 .attribution a {
-     color: hsl(228, 45%, 44%); 
+     color: hsl(277, 64%, 61%); 
 
 }
 
@@ -29,7 +33,7 @@ html{
 body{
     font-family: "Inter", sans-serif;
     font-size: 15px;
-    background-color: var(--Very-dark-blue);
+    background-color: var(--main-background);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,8 +42,8 @@ body{
 }
 
 .container{
-    background-color: var(--Dark-desaturated-blue);
-    color: var(--White);
+    background-color: var(--card-background);
+    color: var(--main-heading-stats);
     text-align: left;
     margin: 0 auto;
     padding: 0;
@@ -69,14 +73,14 @@ body{
 
 .card-title span{
     font-family: "Inter";
-    color: var(--Soft-violet);
+    color: var(--accent);
 }
 
 .card-text p{
     font-size: 15px;
     line-height: 1.7;
     letter-spacing: 0.6px;
-    color: var(--Slightly-transparent-white);
+    color: var(--main-paragraph);
     width: 400px;
     display: flex;
     flex-direction: column;
@@ -103,20 +107,20 @@ body{
     padding-top: 15px;
     font-family: "Inter", sans-serif;
     font-size: 12px;
-    color: var(--Slightly-transparent-white);
+    color: var(--stat-headings);
     
 
 }
 .stats-numbers span{
     font-family: "Lexend Deca";
-    color: var(--White);
+    color: var(--main-heading-stats);
     font-weight: bold;
     font-size: 20px;
     
 }
 
 .stats-text{
-    color: rgba(255, 255, 255, 0.5);
+    color: var(--stat-headings);
     line-height: 2.4rem;
 }
 
