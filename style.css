@@ -148,14 +148,33 @@ body{
 
 }
 
-@media screen and (max-width:375px) {
+@media only screen and (max-width:375px) {
     .container{
         flex-direction: column-reverse;
         width: 70%;
         justify-content: center;
         align-items: center;
         padding: 0;
+        text-align: left;
       
+    }
+
+
+    .card-picture{
+        display: block;
+        width: 50%;
+        border-radius: 0 15px 15px 0;
+        background-image: url(./images/image-header-mobile.jpg);
+        opacity: 0.8;
+        object-fit: cover;
+    
+      
+    }
+
+    .overlay{
+        background-color: hsla(277, 64%, 61%, 1);
+        height: 400px;
+
     }
     
 
