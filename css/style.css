@@ -10,10 +10,10 @@
 }
 
 .attribution {
-    font-size: 11px; 
+    font-size: 18px; 
     text-align: center; 
     color:hsl(0, 0%, 100%);
-    padding:10px; 
+    padding:20px; 
     font-family: "Inter", sans-serif;
 
 }
@@ -56,20 +56,24 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 1000px;
+    width: min(1000px, 90%);
     
 }
 
 .card{
     padding:20px;
     margin: 0 auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap:2rem;
     
 }
 .card-title{
     font-family: "Lexend Deca";
-    width: 25rem;
-    display: flex;
-    justify-content: flex-start;
+    width: min(400px, 100%);
     letter-spacing: 0.6px;
 }
 
@@ -78,35 +82,34 @@ body{
     color: var(--accent);
 }
 
+.card-text{
+    width: min(400px, 100%);
+    margin-bottom:2rem;
+}
+
 .card-text p{
     font-size: 15px;
     line-height: 1.7;
     letter-spacing: 0.6px;
     color: var(--main-paragraph);
-    width: 400px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items:flex-start;
-
-
 }
 
 
 .stats-card{
     display: flex;
-    width: 400px;
-    justify-content: space-between;
+    width: 100%;
+    justify-content: space-around;
     align-items: center;
     
 }
 
 .stats{
-    margin: 20px;
-    padding: 10px;
     text-transform: uppercase;
-    margin-top: 30px;
-    padding-top: 15px;
     font-family: "Inter", sans-serif;
     font-size: 12px;
     color: var(--stat-headings);
@@ -127,13 +130,13 @@ body{
 }
 
 .card-picture{
-    width: 500px;
-    height: 400px;
+    width: 50%;
+    height: 100%;
     border-radius: 0 15px 15px 0;
     background-image: url(../images/image-header-desktop.jpg);
     opacity: 0.8;
-    object-fit: cover;
-
+    background-size: cover;
+    background-position: center;
   
 }
 
@@ -141,8 +144,6 @@ body{
     background-color: hsla(277, 64%, 61%, 1);
     border-radius: 0 15px 15px 0;
     position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
     width: 100%;
     height: 100%;
     mix-blend-mode:multiply;
