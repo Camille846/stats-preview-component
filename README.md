@@ -10,8 +10,6 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 - [My process](#my-process)
   - [Built with](#built-with)
   - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -27,6 +25,12 @@ Users should be able to:
 
 ![image](https://user-images.githubusercontent.com/83260908/141368985-c84bb6e3-2412-4e39-b99f-ebf53b0a63ee.png)
 
+### Links
+
+- Solution URL: https://camille846.github.io/stats-preview-component/
+
+## My Process
+
 ### Built with
 
 - Semantic HTML5 markup
@@ -38,9 +42,6 @@ Users should be able to:
 - [Google Fonts](https://fonts.google.com)
 - [W3School](https://www.w3schools.com/cssref/css3_pr_filter.asp)
 
-### Links
-
-- Solution URL: https://camille846.github.io/stats-preview-component/)
 
 
 
